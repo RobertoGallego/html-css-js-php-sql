@@ -15,39 +15,29 @@
     <div id="contenedor">
         <header>
             <img src="img/logo.png" alt="Logo" id="logo"/>
-            <p>Sing in to CAMAGRU!</p>
         </header>
         <section id="contenido">
-            <article>
-                <form action="/action_page.php">
-                    User name or email address:<br>
-                    <input name="firstname" type="text">
-                    <br><br>
-                    Password:<br>
-                    <input name="password" type="password">
-                    <br><br>
+            <div>
+                <h2>Sing in to CAMAGRU!</h2>
+                <form class="form-in" action="/action_page.php">
+                    <label for="firstname">User name or email address</label>
+                    <input id="firstname" name="firstname" type="text" placeholder="">
+                    <label for="password">Password</label>
+                    <input id="password" name="password" type="password" placeholder="">
                     <input type="submit" value="Sign in">
                 </form>
-            </article>
-            <article>
-                <p>Sing up! <a href="#">Create an account.</a></p>
+            </div>
+            <div class="color-02">
+                <p>Sing up ! <a href="#">Create an account.</a></p>
                 <a href="#">Forgot your Password?</a>
-            </article>
+            </div>
         </section>
         <footer>
-            <ul>
-                <li>
-                    <a href="#">Term</a>
-                </li>
-                <li>
-                    <a href="#">Privacy</a>
-                </li>
-                <li>
-                    <a href="#">Security</a>
-                </li>
-                <li>
-                    <a href="#">Contact us</a>    
-                </li>
+            <ul class="info-bar">
+                <li><a href="#">Term</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Contact us</a></li>
             </ul>
         </footer>
     </div>
