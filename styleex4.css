@@ -1,0 +1,52 @@
+nav {
+    /* float: left; */
+    width: 150px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+}
+
+section {
+    /* margin-left: 170px; */
+    border: 1px solid blue;
+    display: inline-block;
+    vertical-align: top;
+}
+
+a {
+    display: block;
+}
+
+/* ejemplo de posicionamiento 
+z-index: 1; el valor más alto se situará por encima de los otros. */
+
+/* nav { 
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+} */
+
+/* inline-block, lo que nos ayudará a crear nuestro diseño. */
+/* vertical-align Esta propiedad se usa para cambiar la alineación vertical de elementos. 
+Aquí tenemos alguno de los posibles valores que esta propiedad acepta: 
+baseline
+top
+middle
+bottom
+valor en px o como %
+*/
+
+/* posicionamientos */
+
+/* 
+Posicionamiento absoluto: nos permite posicionar un elemento en cualquier 
+parte de la página (superior izquierda, inferior derecha, centro, etc.).
+
+Posicionamiento fijo: es lo mismo que el posicionamiento absoluto, pero aquí el 
+elemento permanece visible incluso si te desplazas hacia la parte inferior de la página. 
+Es parecido, si hacemos memoria, al principio background-attachment: fixed;.
+
+Posicionamiento relativo: permite al elemento estar fuera de su posición normal.
+
+left top bottom right, px %
+*/

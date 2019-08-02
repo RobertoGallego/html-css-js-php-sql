@@ -1,0 +1,40 @@
+section p {
+    width: 50%;
+    min-width: 400px;
+    background-color: silver;
+    border: 1px solid black;
+    text-align: center;
+    padding: 12px; /* interior */
+    margin: 50px; /* margen exterior */
+    /* min-width, min-height, max-width, max-height */
+}
+
+/* MARGEN */
+/*
+padding: indica el tamaño del margen interior. Está generalmente especificado en píxeles (px).
+
+margin: indica el tamaño del margen exterior. Ahí también, los píxeles se usan más frecuentemente. 
+margin-top
+margin-bottom
+margin-left
+margin-right
+
+margen: 2px 0 3px 1px; = top derecha abajo izq
+margen: 2px 1px; = arriba y abajo, derecha y izq
+
+padding-top
+padding-bottom
+padding-left
+padding-right
+*/
+
+/* overfflow: auto o scroll, sirve para ver toda la info si el bloque es muy pequeno */
+/* word-wrap: cortar textos demasiado grandes, cuando tenemos un link por ejemplo */
+article p {
+    width: 350px; /* Especificamos una anchura (obligatorio) */
+    margin: auto; /* Podemos pedir que el bloque se centre con el auto */
+    border: 1px solid black;
+    text-align: justify;
+    padding: 12px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,95 @@
+p {
+    color: blue;
+    font-size: 16px;
+}
+
+h1 {
+    color: blue;
+    font-size: 1.3em;
+}
+
+p, h1 {
+    color: blue;
+    /* font-family: font1, font2, font3, font4; */
+}
+
+.heybuddy {
+    color: red;
+}
+
+h3 em {
+    color: pink;
+}
+
+.font
+{
+    font-style: cursive;
+    font-weight: bold;
+    text-decoration: underline; /* underline, line-through, overline, blink, none */
+    text-align: center; /* Utilizas la propiedad text-align y especificas la alineación. 
+    ex: left, center, right, justify */
+    /* font-size: 30px; */
+}
+
+/* Float left or right. Sólo aplicas un float a una etiqueta, Entonces continúas escribiendo el texto siguiendo de forma normal. */
+
+.floatingimage {
+    float: left;
+}
+
+.below {
+    clear: both;
+}
+
+body {
+    /* background-image: url("snow.png"); imagen de fondo */
+    background-color: silver;
+    color: black;
+}
+
+mark {
+    background-color: red;
+    color: yellow;
+}
+
+/* Nueva fuente CSS con diferentes formatos dependiendo del browser
+    @font-face { Define una nueva fuente llamada LearningCurveProRegular
+        font-family: 'LearningCurveProRegular';
+        src: url('LearningCurve_OT-webfont.eot');
+        src: url('LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
+             url('LearningCurve_OT-webfont.woff') format('woff'),
+             url('LearningCurve_OT-webfont.ttf') format('truetype'),
+             url('LearningCurve_OT-webfont.svg#LearningCurveProRegular') format('svg');
+    }
+    
+    h1  Usa la fuente que acabas de especificar para los títulos 
+    {
+        font-family: 'LearningCurveProRegular', Arial, serif;
+    }
+*/
+
+/*
+class // HTML example: <h1 class="example"></h1>
+      // CSS .example { color: blue}
+
+id    // HTML example: <h1 id="example"></h1>
+      // CSS #example { color: blue}
+
+<span> </span>: es una etiqueta de tipo inline, es decir, una etiqueta situada dentro de un párrafo de texto,
+para seleccionar solo ciertas palabras.
+
+<div> </div>: es una etiqueta de tipo block, es una etiqueta que se usa frecuentemente para crear un diseño.
+*/
+
+h1 + p {
+   /* una etiqueta seguida de otra etiqueta */
+}
+
+a[título]
+{
+    /* Selecciona todos los enlaces <a> que tienen un atributo title. 
+    example: <a href="http://site.com" title="Descripción emergente"> 
+    a[título="Click aqui"]
+    a[title*="aquí"] */
+
+}

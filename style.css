@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url("img/shattered-island.gif") fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#contenedor {
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* border-radius: 20px; */
+    /* overflow: hidden; */
+}
+
+header {
+    height: 240px;
+    background: black;
+}
+
+#logo {
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+a:visited {
+    color: blue;
+}
+
+#contenido {
+    width: 960px;
+    height: 500px;
+    background: pink;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: grey;
+    clear: both;
+}
