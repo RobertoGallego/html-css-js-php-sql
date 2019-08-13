@@ -1,0 +1,72 @@
+body
+{
+    /* superpropiedad la de abajo */
+    background: url("bart.png") fixed no-repeat top right, url("sim.png") fixed;
+    /* background-image: url("bart.png"); */
+    /* background-attachment: scroll; El fondo permanecerá fijo. fixed or scroll */
+}
+
+/* background-repeat: no-repeat, repeat-x, repeat. repetición del fondo */
+/* background-position: top, bottom, left, center, right. posición del fondo */
+/* background-position: 30px 50px; */
+
+h2 {
+    background-color: black;
+    color: white;
+    opacity: 0.6;
+}
+
+#color-test {
+    background-color: rgba(255,0,0,0.5);
+}
+
+/* BORDES */
+
+/* superpropiedad puedes ocupar hasta 3 para la apariencia del borde 
+    la anchura: 2px;
+    el color #FF0000;
+    tipo de borde: none, solid, dotted, dashed, double, groove, ridge, inset, outset;
+    border-top, border-bottom, border-left, border-right
+    Hay equivalentes para modificar cada detalle del borde si tú quieres: 
+    border-top-width para cambiar el grosor del borde superior,
+    border-top-colorpara el color superior etc.
+*/
+
+.border {
+    border: 3px blue dashed;
+    border-left: 6px black dashed;
+    border-radius: 10px; /* me permite redondear los bordes
+    border-radius: 10px 5px 10px 5px;
+    border-radius: 20px / 10px;
+    border-left: 2px solid black; */
+    box-shadow: 6px 6px 6px black; /* inset para poner dentro del borde la sombra*/
+    text-shadow: 2px 2px 4px black;
+}
+
+.a {
+    text-decoration: none;
+    color: red;
+    font-style: italic;
+}
+
+.a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+.b:active /* Cuando el visitante hace clic en el enlace */
+{
+    background-color: #FFCC66;
+}
+
+.c:focus {
+    background-color: purple;
+}
+
+.d:visited {
+    color: green;
+}
+
+p {
+    opacity: 1;
+}
